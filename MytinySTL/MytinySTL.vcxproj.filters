@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\algo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\algobase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\algorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\alloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\allocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\astring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\basic_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\construct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\deque.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\exceptdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\functional.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\hashtable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\heap_algo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\numeric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\rb_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\set_algo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\type_traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\uninitialized.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\unordered_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\unordered_set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\algorithm_performance_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\algorithm_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\deque_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\list_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\map_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\queue_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\set_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\stack_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\string_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\unordered_map_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\unordered_set_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\vector_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

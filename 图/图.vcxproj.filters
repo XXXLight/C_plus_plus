@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源文件\课程表 II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\课程表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\一个图中连通三元组的最小度数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\最小生成树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\到达目的地的方案数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="连接所有点的最小费用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="合法重新排列数对.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="引爆最多的炸弹.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="从给定原材料中找到所有可以做出的菜.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="课程表 IV.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\搜索查找二分\网络延迟时间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="除法求值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="电动车游城市.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="阈值距离内邻居最少的城市.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="概率最大的路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="有向无环图中一个节点的所有祖先.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="细分图中的可到达结点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="得到要求路径的最小带权子图.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="使网格图至少有一条有效路径的最小代价.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

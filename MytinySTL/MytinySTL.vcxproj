@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\algo.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\algobase.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\algorithm.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\alloc.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\allocator.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\astring.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\basic_string.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\construct.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\deque.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\exceptdef.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\functional.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\hashtable.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\heap_algo.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\iterator.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\list.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\map.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\memory.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\numeric.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\queue.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\rb_tree.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\set.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\set_algo.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\stack.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\type_traits.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\uninitialized.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\unordered_map.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\unordered_set.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\util.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\MyTinySTL\vector.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\algorithm_performance_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\algorithm_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\deque_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\list_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\map_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\queue_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\set_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\stack_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\string_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\unordered_map_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\unordered_set_test.h" />
+    <ClInclude Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\vector_test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\about_study\C++\MyTinySTL-master\MyTinySTL-master\Test\test.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{2414F076-EF8E-4FD6-B10A-3CD77981773A}</ProjectGuid>
+    <RootNamespace>MytinySTL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
