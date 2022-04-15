@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+// 单调递减函数的二分问题
 class Solution {
 public:
 	int minEatingSpeed(vector<int>& piles, int H) {
