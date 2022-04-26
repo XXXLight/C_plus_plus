@@ -75,5 +75,8 @@
     <ClCompile Include="最长公共子路径.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="完美矩形.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

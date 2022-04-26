@@ -94,11 +94,9 @@ int main() {
 	for (int i = 1; i <= n; i++) cin >> v[i] >> w[i] >> s[i];
 	for (int i = 1; i <= n; i++) {//枚举背包
 		for (int j = 1; j <= m; j++) {//枚举体积
-			for (int k = 0; k <= s[i]; k++) {
-				if (j >= k * v[i]) {
-					// k=0时包含f[i-1][j]
-					f[i][j] = max(f[i][j], f[i - 1][j - k * v[i]] + k * w[i]);
-				}
+			for (int k = 0; k <= s[i] && k*v[i] <= j; k++) {
+				// k=0时包含f[i-1][j]
+				f[i][j] = max(f[i][j], f[i - 1][j - k * v[i]] + k * w[i]);
 			}
 		}
 	}

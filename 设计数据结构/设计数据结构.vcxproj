@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LFU 缓存.cpp" />
     <ClCompile Include="LRU 缓存机制.cpp" />
     <ClCompile Include="基本计算器 II.cpp" />
     <ClCompile Include="基本计算器.cpp" />

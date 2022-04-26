@@ -37,3 +37,62 @@ public:
 		return -1;
 	}
 };
+
+
+
+
+
+//	https://www.zhihu.com/question/21923021/answer/281346746
+class Solution {
+public:
+// i 指向后缀末尾
+// j 指向前缀末尾
+	vector<int> Getnext(string s)
+	{
+		int len = s.size();
+		vector<int> next(len + 1);//多分配一个空间，下面是++i，++j不然数组下标越界
+		int j = -1, i = 0;
+		next[0] = -1;
+		while (i < len)
+		{
+			if (j == -1 || s[i] == s[j])
+			{
+				++i;
+				++j;
+				next[i] = j;//next[1]必为0
+			}
+			else
+			{
+				j = next[j];//找next数组就是模式串前后缀自匹配，如果失败就回溯,回溯看的不就是自己的next下标，所以才有这个等式
+			}
+
+		}
+		return next;
+	}
+	int strStr(string haystack, string needle)
+	{
+		int len1 = haystack.size();
+		int len2 = needle.size();
+		if (len2 == 0) return 0;
+		vector<int> next = Getnext(needle);//拿到next数组
+		int j = 0, i = 0;
+		while (i < len1&&j < len2)
+		{
+			if (j == -1 || haystack[i] == needle[j])
+			{
+				i++;
+				j++;
+			}
+			else {
+				j = next[j];
+			}
+		}
+		if (j >= len2)
+		{
+			return i - len2;
+		}
+		else {
+			return -1;
+		}
+	}
+};

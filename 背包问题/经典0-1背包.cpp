@@ -145,18 +145,39 @@ using namespace std;
 const int N = 1010;
 int n, m;
 int v[N], w[N];
-int f[N][N];
+int f[N][N];// 初值为0
+//  f[i][j]的具体含义：1~i件物品，容量为j的最大价值
 int main() {
 	cin >> n >> m;
-	for (int i = 1; i <= n; i++) cin >> v[i] >> w[i];
+	for (int i = 1; i <= n; i++) cin >> v[i] >> w[i];// v1,w1;v2,w2......vn,wn
 	for (int i = 1; i <= n; i++) {
 		for (int j = 0; j <= m; j++) {
-			f[i][j] = f[i - 1][j];
-			if (j >= v[i]) f[i][j] = max(f[i][j], f[i - 1][j - v[i]] + w[i]);
+			f[i][j] = f[i - 1][j];// 不放第i件物品
+			if (j >= v[i]) f[i][j] = max(f[i][j], f[i - 1][j - v[i]] + w[i]);// 可以放第i件物品，更新状态
 		}
 	}
 	cout << f[n][m] << endl;
 	return 0;
 }
 
+
+//无优化版,也可以这样写
+#include <iostream>
+using namespace std;
+const int N = 1010;
+int n, m;
+int v[N], w[N];
+int f[N][N];
+int main() {
+	cin >> n >> m;
+	for (int i = 1; i <= n; i++) cin >> v[i] >> w[i];
+	for (int i = 1; i <= n; i++) {
+		for (int j = 0; j <= m; j++) {
+			if (j >= v[i]) f[i][j] = f[i - 1][j - v[i]] + w[i];
+			f[i][j] = max(f[i][j], f[i - 1][j]);
+		}
+	}
+	cout << f[n][m] << endl;
+	return 0;
+}
 

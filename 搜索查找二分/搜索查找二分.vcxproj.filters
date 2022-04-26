@@ -93,9 +93,6 @@
     <ClCompile Include="寻找旋转排序数组中的最小值 II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="x 的平方根 .cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="有效三角形的个数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -136,6 +133,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="每个小孩最多能分到多少糖果.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="x 的平方根.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="统计包含每个点的矩形数目.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

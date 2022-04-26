@@ -117,7 +117,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="x 的平方根 .cpp" />
+    <ClCompile Include="x 的平方根.cpp" />
     <ClCompile Include="丑数 III.cpp" />
     <ClCompile Include="两球之间的磁力.cpp" />
     <ClCompile Include="二分法总结.cpp" />
@@ -156,6 +156,7 @@
     <ClCompile Include="狒狒吃香蕉.cpp" />
     <ClCompile Include="玩具套圈.cpp" />
     <ClCompile Include="第 N 个神奇数字.cpp" />
+    <ClCompile Include="统计包含每个点的矩形数目.cpp" />
     <ClCompile Include="装包裹的最小浪费空间.cpp" />
     <ClCompile Include="阶乘函数后 K 个零.cpp" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -126,6 +126,7 @@
     <ClCompile Include="汉明距离.cpp" />
     <ClCompile Include="消失的数字.cpp" />
     <ClCompile Include="统计按位或能得到最大值的子集数目.cpp" />
+    <ClCompile Include="配对交换.cpp" />
     <ClCompile Include="颠倒二进制位.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

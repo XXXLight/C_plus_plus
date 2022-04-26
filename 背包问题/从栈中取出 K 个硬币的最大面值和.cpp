@@ -21,3 +21,42 @@ public:
 	}
 };
 
+
+
+
+
+const int N = 2010;
+class Solution {
+	int f[N][N], v[N][N], w[N][N], s[N];
+public:
+	int maxValueOfCoins(vector<vector<int>>& p, int m) {
+		int res = 0;
+		for (int i = 0; i < p.size(); i++) {
+			for (int j = 1; j < p[i].size(); j++) {
+				p[i][j] = p[i][j - 1] + p[i][j];
+			}
+		}
+		int n = p.size();
+		// vector<int> v, w;
+
+		for (int i = 0; i < p.size(); i++) {
+			s[i + 1] = p[i].size();
+			for (int j = 0; j < p[i].size(); j++) {
+				v[i + 1][j + 1] = j + 1;     //体积
+				w[i + 1][j + 1] = p[i][j]; //价值
+			}
+		}
+		for (int i = 1; i <= n; i++) {
+			for (int j = 0; j <= m; j++) {
+				f[i][j] = f[i - 1][j];
+				for (int k = 1; k <= s[i]; k++) {
+					if (v[i][k] <= j) {
+						f[i][j] = max(f[i][j], f[i - 1][j - v[i][k]] + w[i][k]);
+					}
+				}
+			}
+		}
+		return f[n][m];
+	}
+};
+

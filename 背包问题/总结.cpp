@@ -82,7 +82,7 @@ int main() {
 				dp[i][j] = max(dp[i][j], dp[i - 1][j - k * v[i]] + k * w[i]);
 	cout << dp[n][m] << endl;
 }
-// 多维背包问题
+// 多维背包问题，与完全背包代码完全一样，只不过多了一个k <= s[i]
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -94,12 +94,10 @@ int main() {
 	cin >> n >> m;
 	for (int i = 1; i <= n; i++) cin >> v[i] >> w[i] >> s[i];
 	for (int i = 1; i <= n; i++) {//枚举背包
-		for (int j = 0; j <= m; j++) {//枚举体积
-			for (int k = 0; k <= s[i]; k++) {
-				if (j >= k * v[i]) {
-					// k=0时包含f[i-1][j]
-					f[i][j] = max(f[i][j], f[i - 1][j - k * v[i]] + k * w[i]);
-				}
+		for (int j = 1; j <= m; j++) {//枚举体积
+			for (int k = 0; k <= s[i] && k*v[i] <= j; k++) {
+				// k=0时包含f[i-1][j]
+				f[i][j] = max(f[i][j], f[i - 1][j - k * v[i]] + k * w[i]);
 			}
 		}
 	}

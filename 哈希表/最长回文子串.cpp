@@ -61,7 +61,7 @@ public:
 
 
 
-// 马拉车算法
+// 马拉车算法,该算法的核心思想是利用之前算的结果更新现在算的结果，理解各个变量含义之后非常容易理解
 // https://www.bilibili.com/video/BV187411B79Q?spm_id_from=333.337.search-card.all.click
 // 想不出来改天想就想出来了，为什么？（因为当天脑子杂念太多）
 class Solution {

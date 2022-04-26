@@ -102,5 +102,11 @@
     <ClCompile Include="用邮票贴满网格图.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="转角路径的乘积中最多能有几个尾随零.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="花期内花的数目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

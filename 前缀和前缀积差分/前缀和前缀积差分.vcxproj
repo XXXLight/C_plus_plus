@@ -144,6 +144,8 @@
     <ClCompile Include="统计优美子数组.cpp" />
     <ClCompile Include="统计隐藏数组数目.cpp" />
     <ClCompile Include="网格游戏.cpp" />
+    <ClCompile Include="花期内花的数目.cpp" />
+    <ClCompile Include="转角路径的乘积中最多能有几个尾随零.cpp" />
     <ClCompile Include="连续数组.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

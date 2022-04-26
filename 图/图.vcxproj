@@ -131,6 +131,7 @@
     <ClCompile Include="源文件\课程表.cpp" />
     <ClCompile Include="电动车游城市.cpp" />
     <ClCompile Include="细分图中的可到达结点.cpp" />
+    <ClCompile Include="节点序列的最大得分.cpp" />
     <ClCompile Include="课程表 IV.cpp" />
     <ClCompile Include="连接所有点的最小费用.cpp" />
     <ClCompile Include="阈值距离内邻居最少的城市.cpp" />

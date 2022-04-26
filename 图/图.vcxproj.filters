@@ -72,5 +72,8 @@
     <ClCompile Include="使网格图至少有一条有效路径的最小代价.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="节点序列的最大得分.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

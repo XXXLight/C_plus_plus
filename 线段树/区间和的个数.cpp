@@ -3,6 +3,7 @@
 using namespace std;
 
 
+
 // 归并排序法，类比逆序对，都是两个指针之间的关系，本质是一样的
 class Solution {
 public:
@@ -34,6 +35,8 @@ public:
 
 
 
+
+
 // 没有使用树状数组的做法，就是最原始的做法，且没有对数据进行映射
 class Solution {
 public:
@@ -60,6 +63,10 @@ public:
 		return res;
 	}
 };
+
+
+
+
 
 
 // 没有使用树状数组的做法，就是最原始的做法，对数据进行映射
@@ -155,7 +162,7 @@ public:
 			allNumbers.insert(x - upper);
 		}
 
-		// 利用哈希表进行离散化
+		// 利用哈希表对值域进行离散化
 		unordered_map<long long, int> values;
 		int idx = 0;// idx从0开始，离散化后是0，1，2，3，3~  n
 		for (long long x : allNumbers) {
@@ -166,7 +173,7 @@ public:
 		int ret = 0;
 		BIT bit(values.size());
 		// 遍历前缀和数组，对前缀和数组进行计数统计并区间查询，且先进行区间查询，再进行计数统计
-		// 原始数组假设是A[i],i=[0,n-1]，是频数数组
+		// 原始数组假设是A[i],i=[0,n-1]，是频数数组，是值域到频数的映射，且值域在0-（n-1）之间
 		for (int i = 0; i < preSum.size(); i++) {
 			int left = values[preSum[i] - upper], right = values[preSum[i] - lower];
 			ret += bit.query(right + 1) - bit.query(left);// A[left]+A[left+1]+...+A[right]

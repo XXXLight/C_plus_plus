@@ -135,6 +135,7 @@
     <ClCompile Include="单词演变.cpp" />
     <ClCompile Include="吃掉 N 个橘子的最少天数.cpp" />
     <ClCompile Include="复原 IP 地址.cpp" />
+    <ClCompile Include="字典序排数.cpp" />
     <ClCompile Include="将字符串拆分为递减的连续值.cpp" />
     <ClCompile Include="岛屿数量.cpp" />
     <ClCompile Include="岛屿的最大面积.cpp" />

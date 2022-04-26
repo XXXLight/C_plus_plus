@@ -195,5 +195,11 @@
     <ClCompile Include="..\贪心\3n 块披萨.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="相邻字符不同的最长路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="统计元音字母序列的数目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
