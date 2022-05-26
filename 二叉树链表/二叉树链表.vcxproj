@@ -145,6 +145,7 @@
     <ClCompile Include="树的核心思想.cpp" />
     <ClCompile Include="根据描述创建二叉树.cpp" />
     <ClCompile Include="特定深度节点链表.cpp" />
+    <ClCompile Include="统计值等于子树平均值的节点数.cpp" />
     <ClCompile Include="统计最高分的节点数目.cpp" />
     <ClCompile Include="翻转二叉树.cpp" />
     <ClCompile Include="路径总和 II.cpp" />

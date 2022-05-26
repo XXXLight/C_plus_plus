@@ -108,5 +108,20 @@
     <ClCompile Include="花期内花的数目.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="我的日程安排表 II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="我的日程安排表 III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="含最多 K 个可整除元素的子数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="拼车.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="航班预订统计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

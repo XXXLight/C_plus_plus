@@ -121,6 +121,10 @@
     <ClCompile Include="从尾到头打印链表.cpp" />
     <ClCompile Include="删除字符串中的所有相邻重复项.cpp" />
     <ClCompile Include="含特定字母的最小子序列.cpp" />
+    <ClCompile Include="子数组最小乘积的最大值.cpp" />
+    <ClCompile Include="子数组的最小值之和.cpp" />
+    <ClCompile Include="子数组范围和.cpp" />
+    <ClCompile Include="巫师的总力量和.cpp" />
     <ClCompile Include="带限制的子序列和.cpp" />
     <ClCompile Include="总结.cpp" />
     <ClCompile Include="括号的最大嵌套深度.cpp" />

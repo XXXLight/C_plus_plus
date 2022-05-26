@@ -39,3 +39,75 @@ public:
 	}
 };
 
+
+
+// 写递归DFS时，要提前想好需要传递哪些参数
+class Solution {
+public:
+	map<char, vector<char>> mp;
+	vector<string> res;
+	void init() {
+		mp['2'] = { 'a','b','c' };
+		mp['3'] = { 'd','e','f' };
+		mp['4'] = { 'g','h','i' };
+		mp['5'] = { 'j','k','l' };
+		mp['6'] = { 'm','n','o' };
+		mp['7'] = { 'p','q','r','s' };
+		mp['8'] = { 't','u','v' };
+		mp['9'] = { 'w','x','y','z' };
+	}
+	void DFS(string s, int index, string tmp) {
+		if (index == s.size()) {
+			res.push_back(tmp);
+		}
+		for (int i = 0; i < mp[s[index]].size(); i++) {
+			tmp += mp[s[index]][i];
+			DFS(s, index + 1, tmp);
+			tmp.pop_back();
+		}
+	}
+	vector<string> letterCombinations(string digits) {
+		if (digits.size() == 0) return {};
+		init();
+		DFS(digits, 0, "");
+		return res;
+	}
+};
+
+
+
+
+
+// tmp写在外面也可以
+class Solution {
+public:
+	map<char, vector<char>> mp;
+	vector<string> res;
+	string tmp;
+	void init() {
+		mp['2'] = { 'a','b','c' };
+		mp['3'] = { 'd','e','f' };
+		mp['4'] = { 'g','h','i' };
+		mp['5'] = { 'j','k','l' };
+		mp['6'] = { 'm','n','o' };
+		mp['7'] = { 'p','q','r','s' };
+		mp['8'] = { 't','u','v' };
+		mp['9'] = { 'w','x','y','z' };
+	}
+	void DFS(string s, int index) {
+		if (index == s.size()) {
+			res.push_back(tmp);
+		}
+		for (int i = 0; i < mp[s[index]].size(); i++) {
+			tmp += mp[s[index]][i];
+			DFS(s, index + 1);
+			tmp.pop_back();
+		}
+	}
+	vector<string> letterCombinations(string digits) {
+		if (digits.size() == 0) return {};
+		init();
+		DFS(digits, 0);
+		return res;
+	}
+};

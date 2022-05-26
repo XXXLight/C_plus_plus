@@ -78,5 +78,11 @@
     <ClCompile Include="完美矩形.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="字符串的总引力.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最大波动的子字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 class Solution {
 public:
 	int nthUglyNumber(int n) {
@@ -56,7 +57,7 @@ class Solution {
 public:
 	int nthUglyNumber(int n) {
 		// greater对应小根堆
-		priority_queue <long long, vector<long long>, greater<long long> > q;
+		priority_queue <long long, vector<long long>, greater<long long> > q;// 注意堆里面存储的是longlong
 		long long answer = 1;
 		// while(1) 好理解
 		for (int i = 1; i < n; ++i)
@@ -73,6 +74,12 @@ public:
 		return answer;
 	}
 };
+
+
+
+// while(1)版
+// 维护一个小根堆，初始堆中元素是1，每次取出堆顶元素（也就是最小值作为当前丑数），
+// 并将等于该值的元素全部弹出，同时将该值产生的新元素压入堆中
 // while(1)版
 class Solution {
 public:
@@ -83,24 +90,24 @@ public:
 		vector<long long> v;
 		while (1) {
 			long long  t = p.top();
+			while (!p.empty() && p.top() == t) p.pop();
 			p.emplace(t * 2);
 			p.emplace(t * 3);
 			p.emplace(t * 5);
-			v.push_back(p.top());
+			v.push_back(t);
 			cnt++;
 			if (cnt == n) break;
-			long long  t1 = p.top();
-			while (!p.empty() && p.top() == t1) p.pop();
 		}
-		for (auto e : v) cout << e << " ";
 		return v.back();
 	}
 };
 
 
 
+
 // 时间复杂度：o(n)
 // 空间复杂度：o(n)
+// 指针体现在数据结构上就是一个整数
 class Solution {
 public:
 	int nthUglyNumber(int n) {

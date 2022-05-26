@@ -156,5 +156,11 @@
     <ClCompile Include="字典序排数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="检查是否有合法括号字符串路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="贴纸拼词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

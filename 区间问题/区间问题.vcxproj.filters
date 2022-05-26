@@ -24,5 +24,14 @@
     <ClCompile Include="无重叠区间.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="统计区间中的整数数目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Range 模块.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="将数据流变为多个不相交区间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

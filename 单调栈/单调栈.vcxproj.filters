@@ -66,5 +66,17 @@
     <ClCompile Include="美化数组的最少删除数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="巫师的总力量和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="子数组的最小值之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="子数组最小乘积的最大值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="子数组范围和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

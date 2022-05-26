@@ -20,6 +20,7 @@ struct TreeNode {
 // 和求树的高度完全一样
 class Solution {
 public:
+	// 接口定义：以root作为根节点的二叉树的所有节点数目
 	int countNodes(TreeNode* root) {
 		if (root == nullptr) return 0;
 		return countNodes(root->left) + countNodes(root->right) + 1;
@@ -30,7 +31,7 @@ public:
 class Solution {
 private:
 	int getNodesNum(TreeNode* cur) {
-		if (cur == 0) return 0;
+		if (cur == nullptr) return 0;
 		int leftNum = getNodesNum(cur->left);      // 左
 		int rightNum = getNodesNum(cur->right);    // 右
 		int treeNum = leftNum + rightNum + 1;      // 中

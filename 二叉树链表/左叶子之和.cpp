@@ -38,11 +38,13 @@ public:
 		return sumOfLeftLeaves(root, false);
 	}
 	// 多传一个flag进去
+	// 以root为根节点的二叉树的所有左叶子节点之和
 	int sumOfLeftLeaves(TreeNode* root, bool flag) {
+		// 递归边界1：空树
 		if (root == nullptr) {
 			return 0;
 		}
-		// 左叶子
+		// 递归边界2：左叶子
 		if (flag && root->left == nullptr && root->right == nullptr) {
 			return root->val;
 		}

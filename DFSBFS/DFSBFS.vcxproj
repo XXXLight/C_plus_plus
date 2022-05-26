@@ -145,6 +145,7 @@
     <ClCompile Include="最小基因变化.cpp" />
     <ClCompile Include="最小跳跃次数.cpp" />
     <ClCompile Include="最长递增路径.cpp" />
+    <ClCompile Include="检查是否有合法括号字符串路径.cpp" />
     <ClCompile Include="正则表达式匹配.cpp" />
     <ClCompile Include="正方形数组的数目.cpp" />
     <ClCompile Include="滑动谜题.cpp" />
@@ -158,6 +159,7 @@
     <ClCompile Include="网格中的最短路径.cpp" />
     <ClCompile Include="节点间通路.cpp" />
     <ClCompile Include="被围绕的区域.cpp" />
+    <ClCompile Include="贴纸拼词.cpp" />
     <ClCompile Include="跳跃游戏 IV.cpp" />
     <ClCompile Include="转化为全零矩阵的最少反转次数.cpp" />
     <ClCompile Include="连续差相同的数字.cpp" />

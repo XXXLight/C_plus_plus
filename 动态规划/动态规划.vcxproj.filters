@@ -201,5 +201,11 @@
     <ClCompile Include="统计元音字母序列的数目.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="统计打字方案数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="不同的子序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

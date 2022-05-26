@@ -124,6 +124,7 @@
     <ClCompile Include="分组得分最高的所有下标.cpp" />
     <ClCompile Include="半径为 k 的子数组平均值.cpp" />
     <ClCompile Include="可获得的最大点数.cpp" />
+    <ClCompile Include="含最多 K 个可整除元素的子数组.cpp" />
     <ClCompile Include="和为K的子数组.cpp" />
     <ClCompile Include="和为奇数的子数组数目.cpp" />
     <ClCompile Include="和可被 K 整除的子数组.cpp" />
@@ -131,6 +132,9 @@
     <ClCompile Include="字母与数字.cpp" />
     <ClCompile Include="寻找数组的中心索引.cpp" />
     <ClCompile Include="形成目标数组的子数组最少增加次数.cpp" />
+    <ClCompile Include="我的日程安排表 II.cpp" />
+    <ClCompile Include="我的日程安排表 III.cpp" />
+    <ClCompile Include="拼车.cpp" />
     <ClCompile Include="拿出最少数目的魔法豆.cpp" />
     <ClCompile Include="最大子矩阵.cpp" />
     <ClCompile Include="最大的幻方.cpp" />
@@ -144,6 +148,7 @@
     <ClCompile Include="统计优美子数组.cpp" />
     <ClCompile Include="统计隐藏数组数目.cpp" />
     <ClCompile Include="网格游戏.cpp" />
+    <ClCompile Include="航班预订统计.cpp" />
     <ClCompile Include="花期内花的数目.cpp" />
     <ClCompile Include="转角路径的乘积中最多能有几个尾随零.cpp" />
     <ClCompile Include="连续数组.cpp" />

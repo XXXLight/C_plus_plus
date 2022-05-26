@@ -2,6 +2,25 @@
 using namespace std;
 
 
+// ±©Á¦¶þ·Ö
+class Solution {
+public:
+	vector<int> countSmaller(vector<int>& nums) {
+		vector<int> help, res;
+		for (int i = nums.size() - 1; i >= 0; i--) {
+			int index = lower_bound(help.begin(), help.end(), nums[i]) - help.begin();
+			help.insert(help.begin() + index, nums[i]);
+			res.push_back(index);
+		}
+		reverse(res.begin(), res.end());
+		return res;
+	}
+};
+
+
+
+
+
 class Solution {
 private:
 	vector<int> c;

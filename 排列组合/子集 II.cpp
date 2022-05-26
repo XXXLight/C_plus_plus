@@ -19,20 +19,29 @@ public:
 		}
 	}
 
+	//// 二维数组去重API
+	//vector<vector<int>> setVector(vector<vector<int>>& vv) {
+	//	//利用set去重
+	//	set<vector<int>>stVec;
+	//	for (auto e : vv) {
+	//		stVec.insert(e);
+	//	}
+	//	vv.clear();
+	//	for (auto e : stVec) {
+	//		vv.push_back(e);
+	//	}
+	//	//利用set去重
+	//	return vv;
+	//}
+
 	// 二维数组去重API
 	vector<vector<int>> setVector(vector<vector<int>>& vv) {
 		//利用set去重
-		set<vector<int>>stVec;
-		for (auto e : vv) {
-			stVec.insert(e);
-		}
-		vv.clear();
-		for (auto e : stVec) {
-			vv.push_back(e);
-		}
-		//利用set去重
-		return vv;
+		set<vector<int>> stVec(vv.begin(), vv.end());
+		vector<vector<int>> res(stVec.begin(), stVec.end());
+		return res;
 	}
+
 	vector<vector<int>> subsetsWithDup(vector<int>& nums) {
 		sort(nums.begin(), nums.end());
 		backtrack(0, nums); //这里只需要传原始数组和深度就行了

@@ -122,6 +122,7 @@
     <ClCompile Include="K个逆序对数组.cpp" />
     <ClCompile Include="一和零.cpp" />
     <ClCompile Include="不同的子序列 II.cpp" />
+    <ClCompile Include="不同的子序列.cpp" />
     <ClCompile Include="不同路径 II.cpp" />
     <ClCompile Include="不同路径 III.cpp" />
     <ClCompile Include="不同路径.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="给 N x 3 网格图涂色的方案数.cpp" />
     <ClCompile Include="统计作战单位数.cpp" />
     <ClCompile Include="统计元音字母序列的数目.cpp" />
+    <ClCompile Include="统计打字方案数.cpp" />
     <ClCompile Include="编辑距离.cpp" />
     <ClCompile Include="解决智力问题.cpp" />
     <ClCompile Include="超级丑数.cpp" />

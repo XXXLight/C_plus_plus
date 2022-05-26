@@ -126,6 +126,7 @@
     <ClCompile Include="最小覆盖子串.cpp" />
     <ClCompile Include="最少交换次数来组合所有的 1 II.cpp" />
     <ClCompile Include="最短超串.cpp" />
+    <ClCompile Include="毯子覆盖的最多白色砖块数.cpp" />
     <ClCompile Include="滑动窗口模板.cpp" />
     <ClCompile Include="滑动窗口的最大值.cpp" />
     <ClCompile Include="至多包含 K 个不同字符的最长子串.cpp" />

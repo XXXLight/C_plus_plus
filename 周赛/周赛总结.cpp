@@ -1,4 +1,4 @@
-﻿//1.每个接口实现一个简单功能，然后进行相应测试看接口是否设计正确
+﻿//1.每个接口实现一个简单功能，然后进行相应测试看接口是否设计正确;
 //2.大问题进行向小问题转化的，化归，大问题 = 》小问题，小问题解决了，大问题就能解决
 //3.简单题可以先直接暴力模拟(这种办法对于前两题几乎都可以)
 //4.大佬的并行处理问题能力很强，咱们菜鸡不行就先串行处理，再连起来
@@ -22,12 +22,17 @@
 //	toupper : 若字符为字母则转化为大写字母；
 //	17.transform(s.begin(), s.end(), s.begin(), ::tolower)将单词的大写转换为小写
 //	18.int / long / long long的最大值分别是INT_MAX / LONG_MAX / LLONG_MAX
-//	19.f or (auto&)和for(auto)运行时间前者更快
-//	20.Line 19 : Char 17 : runtime error : signed integer overflow : 100000 * 100001 cannot be represented in type 'int' (solution.cpp), 将 int *(1.0)转换成float，或者左乘1LL
+//	19.for (auto&)和for(auto)运行时间前者更快,前者是地址，后者是全部拷贝
+//	20.Line 19 : Char 17 : runtime error : signed integer overflow : 100000 * 100001 cannot be represented in type 'int' (solution.cpp), 将 int *(1.0)转换成float，或者左乘1LL；加法也会出错，都是转成使用long long
 //	21.(a + b) % p = (a % p + b % p) % p(a - b) % p = (a % p - b % p) % p
 //	(a * b) % p = (a % p * b % p) % p(a^b) % p = ((a % p) ^ b) % p
 //	22.ull超出范围会自动取模
 //	23.std::string_view view = s; 方法是真的牛皮,比std::string要快很多
+//	24.map,set[这两个特点是底层是红黑树有序的，存储的数据类型可以自定义，就是空间时间复杂度比较高]unordered_map, unordered_set[这两个特点是底层实现是哈希表无序存储查询插入时间空间复杂度比较低（相比于上面两个来说），但是缺点就是数据类型只能是基本的类型比如 int, char float.string 等等]
+//  25.要有逐步调试的耐心，调试的方法：输出调试、控制变量法调试（屏蔽中间）、逐行debug
+//  26.多个&&、||条件并列的时候，要注意各个条件之间的顺序关系，while(l1<=r1&&l2<=r2&&first[l1]==second[l2])索引条件要放在前面
+
+
 
 
 

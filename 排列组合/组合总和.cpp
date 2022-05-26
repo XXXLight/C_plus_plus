@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// 无重复元素+可无限次选取元素
+
 //根据子集代码改写而来
 
 //方式一：放与不放

@@ -60,6 +60,7 @@ public:
 
 
 // 方法3：预先排序+设置访问顺序
+// 只需在全排列中的剪枝里再加上一个条件就可以了
 class Solution {
 public:
 	//作为成员变量的好处是参数不用传来传去
@@ -74,7 +75,8 @@ public:
 		//  for循环处理横向的遍历，其实每次都会有三个分支，只不过标记过的不用重复访问；depth处理深度
 		for (int i = 0; i < nums.size(); i++) {
 			// 通过画图，要理解为什么可以这样进行剪枝，a||b,a是和之前一样进行剪枝，b是保证访问顺序
-			if (vis[i] || (i > 0 && nums[i] == nums[i - 1] && !vis[i - 1])) {
+			// if (vis[i] || (i+1 <nums.size() && nums[i] == nums[i + 1] && !vis[i+1]))这样剪枝也可以
+			if (vis[i] || (i > 0 && nums[i] == nums[i - 1] && !vis[i - 1])) {// 必须是vis[i-1],不能是vis[i]
 				continue;
 			}
 			tmp.push_back(nums[i]);

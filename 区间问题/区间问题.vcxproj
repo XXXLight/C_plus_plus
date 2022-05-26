@@ -115,9 +115,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Range 模块.cpp" />
     <ClCompile Include="区间列表的交集.cpp" />
     <ClCompile Include="合并区间.cpp" />
+    <ClCompile Include="将数据流变为多个不相交区间.cpp" />
     <ClCompile Include="无重叠区间.cpp" />
+    <ClCompile Include="统计区间中的整数数目.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

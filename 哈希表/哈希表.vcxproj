@@ -122,10 +122,12 @@
     <ClCompile Include="两数之和.cpp" />
     <ClCompile Include="变位词组.cpp" />
     <ClCompile Include="同构字符串.cpp" />
+    <ClCompile Include="字符串的总引力.cpp" />
     <ClCompile Include="完美矩形.cpp" />
     <ClCompile Include="实现 strStr().cpp" />
     <ClCompile Include="总结.cpp" />
     <ClCompile Include="数组中出现次数超过一半的数字.cpp" />
+    <ClCompile Include="最大波动的子字符串.cpp" />
     <ClCompile Include="最短回文串.cpp" />
     <ClCompile Include="最长公共子路径.cpp" />
     <ClCompile Include="最长回文子串.cpp" />

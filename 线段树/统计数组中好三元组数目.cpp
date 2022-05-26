@@ -53,7 +53,6 @@ private:
 
 
 
-
 // 模板类
 template <class T> class FenwickTree {
 	int limit;
@@ -103,3 +102,86 @@ public:
 	}
 };
 
+
+
+
+
+// 转化为“计算右侧小于当前元素的个数”
+class Solution {
+public:
+	class SolutionCountSmaller {
+	private:
+		vector<int> c;
+		vector<int> a;
+
+		void Init(int length) {
+			c.resize(length, 0);
+		}
+
+		int LowBit(int x) {
+			return x & (-x);
+		}
+
+		void Update(int pos) {
+			while (pos < c.size()) {
+				c[pos] += 1;
+				pos += LowBit(pos);
+			}
+		}
+
+		int Query(int pos) {
+			int ret = 0;
+
+			while (pos > 0) {
+				ret += c[pos];
+				pos -= LowBit(pos);
+			}
+
+			return ret;
+		}
+
+		void Discretization(vector<int>& nums) {
+			a.assign(nums.begin(), nums.end());
+			sort(a.begin(), a.end());
+			a.erase(unique(a.begin(), a.end()), a.end());
+		}
+
+		int getId(int x) {
+			return lower_bound(a.begin(), a.end(), x) - a.begin() + 1;
+		}
+	public:
+		vector<int> countSmaller(vector<int>& nums) {
+			vector<int> resultList;
+
+			Discretization(nums);
+
+			Init(nums.size());
+
+			for (int i = (int)nums.size() - 1; i >= 0; --i) {
+				int id = getId(nums[i]);
+				resultList.push_back(Query(id - 1));
+				Update(id);
+			}
+
+			reverse(resultList.begin(), resultList.end());
+
+			return resultList;
+		}
+	};
+	long long goodTriplets(vector<int>& nums1, vector<int>& nums2) {
+		int n = nums1.size();
+		unordered_map<int, int> mp;
+		for (int i = 0; i < n; i++) {
+			mp[nums1[i]] = i;
+		}
+		for (auto& x : nums2) {
+			x = mp[x];
+		}
+		vector<int> v = SolutionCountSmaller().countSmaller(nums2);
+		long long res = 0;
+		for (int i = 0; i < n; i++) {
+			res += 1LL * (nums2[i] - v[i])*(n - 1 - i - v[i]);
+		}
+		return res;
+	}
+};

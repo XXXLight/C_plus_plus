@@ -63,5 +63,8 @@
     <ClCompile Include="K 连续位的最小翻转次数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="毯子覆盖的最多白色砖块数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
